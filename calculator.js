@@ -25,35 +25,35 @@ document.getElementById("add").addEventListener("click", function() {
     const num1 = parseFloat(document.getElementById("num1").value) || 0;
     const num2 = parseFloat(document.getElementById("num2").value) || 0;
     const result = add(num1, num2);
-    document.getElementById("result").innerText = "Result: " + result;
+    document.getElementById("result").textContent = "Result: " + result;
 });
 
 documemt.getElementById('subtract').addEventListener("Click", function() {
     const num1 = parseFloat(document.getElementById("num1").value) || 0;
     const num2 = parseFloat(document.getElementById("num2").value) || 0;
     const result = subtract(num1, num2);
-    document.getElementById("result").innerText = "Result: " + result;
+    document.getElementById("result").textContent = "Result: " + result;
 });
 
 document.getElementById("multiply").addEventListener("click", function() {
     const num1 = parseFloat(document.getElementById("num1").value) || 0;
     const num2 = parseFloat(document.getElementById("num2").value) || 0;
     const result = multiply(num1, num2);
-    document.getElementById("result").innerText = "Result: " + result;
+    document.getElementById("result").textContent = "Result: " + result;
 });  
 
 document.getElementById("divide").addEventListener("click", function() {
     const num1 = parseFloat(document.getElementById("num1").value) || 0;
     const num2 = parseFloat(document.getElementById("num2").value) || 0;
     const result = divide(num1, num2);
-    document.getElementById("result").innerText = "Result: " + result;
+    document.getElementById("result").textContent = "Result: " + result;
 });
 
 // Clear button functionality
 document.getElementById("clear").addEventListener("click", function() {
     document.getElementById("num1").value = '';
     document.getElementById("num2").value = '';
-    document.getElementById("result").innerText = "Result: ";
+    document.getElementById("result").textContent = "Result: ";
 });
 
 
